@@ -1,0 +1,28 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "Backend Internship",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "set DEBUG=app,app:* & nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "glitch",
+    "csv"
+  ],
+  "author": "Kayode Agboola",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "debug": "^4.3.1"
+  }
+}
